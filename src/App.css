@@ -1,9 +1,7 @@
 body{
   background-image: url("assets/images/brickwall.png");
 }
-.App {
-  text-align: center;
-}
+
 
 .App-logo {
   animation: App-logo-spin infinite 20s linear;
@@ -32,4 +30,9 @@ body{
   to {
     transform: rotate(360deg);
   }
+}
+@media screen and (max-width: 510px){
+.App {
+  text-align: left;
+}
 }
