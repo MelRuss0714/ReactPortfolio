@@ -2,8 +2,8 @@ import React from 'react';
 import './About.css';
 import Footer from '../Footer/Footer';
 import Navbar from '../Navbar/Navbar';
-//import LargePic from '../ProfilePics/LargePic';
-//import AboutMe from './AboutMe';
+import LargePic from '../ProfilePics/LargePic';
+import AboutMe from './AboutMe';
 
 
 
@@ -15,8 +15,8 @@ export default class About extends React.Component {
         return (
             <div className='About'>
                 <Navbar />
-                
-                <h1>About</h1>
+               <LargePic />
+               <AboutMe />
                 <Footer />
 
             </div>
