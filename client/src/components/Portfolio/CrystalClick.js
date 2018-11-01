@@ -6,7 +6,7 @@ import './Portfolio.css';
 const CrystalClick = (props) => {
 return (
   <div >
-    <a href="https://bubblink.herokuapp.com/"><img className='CrystalClick' src={CrystalClickPic} alt='Crystal Click'/></a>
+    <a href="https://melruss0714.github.io/CrystalClick/"><img className='CrystalClick' src={CrystalClickPic} alt='Crystal Click'/></a>
   </div>
 )
 }

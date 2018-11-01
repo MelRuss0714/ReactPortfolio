@@ -1,4 +1,4 @@
-.Bubblink, .SmartRock, .Poppy, .CrystalClick {
+.Bubblink, .SmartRock, .Poppy, .CrystalClick, .Trivia, .GifTastic {
     background-color: white;
     border-style: solid;
     border-radius: 540px;
@@ -30,7 +30,7 @@
 }
 
 @media screen and (max-width: 510px){
-    .Bubblink .SmartRock .Poppy .CrystalClick{
+    .Bubblink .SmartRock .Poppy .CrystalClick .Trivia .GifTastic{
         width: 100%;
         margin-bottom: 20px;
     } 
