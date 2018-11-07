@@ -4,7 +4,7 @@ self.__precacheManifest = [
     "url": "/ReactPortfolio/static/media/ProPicture.e2b222d9.jpg"
   },
   {
-    "revision": "9588d872557ddf85ba18",
+    "revision": "6c3a5bd0e4094946ed22",
     "url": "/ReactPortfolio/static/css/main.069a0c47.chunk.css"
   },
   {
@@ -32,8 +32,8 @@ self.__precacheManifest = [
     "url": "/ReactPortfolio/static/media/MelindaRussellResume.05b3be35.docx"
   },
   {
-    "revision": "9588d872557ddf85ba18",
-    "url": "/ReactPortfolio/static/js/main.9588d872.chunk.js"
+    "revision": "6c3a5bd0e4094946ed22",
+    "url": "/ReactPortfolio/static/js/main.6c3a5bd0.chunk.js"
   },
   {
     "revision": "9265a0c32d882930861daac1dc20f39b",
@@ -60,7 +60,7 @@ self.__precacheManifest = [
     "url": "/ReactPortfolio/static/media/MelindaRussellResume.70972f59.pdf"
   },
   {
-    "revision": "aef157e4485f3936e37f993988cf05c7",
+    "revision": "b41b5532aecee0a1f5e2fa9c3a4f43fe",
     "url": "/ReactPortfolio/index.html"
   }
 ];
