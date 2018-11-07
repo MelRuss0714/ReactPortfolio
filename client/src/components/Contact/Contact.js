@@ -6,39 +6,49 @@ import axios from 'axios';
 import { Button, Form, FormGroup, Label, Input } from 'reactstrap';
 
 export default class Contact extends React.Component {
-    constructor(){
+    constructor() {
         super()
 
         this.state = {
             name: '',
             email: '',
-            message: '',
-            file: ''
+            message: ''
         }
         this.handleChange = this.handleChange.bind(this)
         this.handleSubmit = this.handleSubmit.bind(this)
+        this.clearFields = this.clearFields.bind(this)
 
     }
-handleChange = e => {
-this.setState({[e.target.name]: e.target.value})
-}
-async handleSubmit(e) {
-    e.preventDefault()
-    const { name, email, message, file} = this.state
+    handleChange = e => {
+        this.setState({ [e.target.name]: e.target.value })
+    }
+    clearFields = () => {
+        document.getElementById("emailForm").reset();
+        this.setState({
+            name: '',
+            email: '',
+            message: ''
+        });
+    }
+    
+    async handleSubmit(e) {
+        e.preventDefault()
+        const { name, email, message } = this.state
 
-    const form = await axios.post('/api/form', {
-        name,
-        email,
-        message,
-        file
-    })
-}
-
+        const form = await axios.post('/api/form', {
+            name,
+            email,
+            message
+        })
+        this.clearFields();
+        
+    }
+    
     render() {
         return (
             <div className='Contact'>
                 <Navbar />
-                <Form onSubmit={this.handleSubmit}>
+                <Form id='emailForm' onSubmit={this.handleSubmit}>
                     <FormGroup>
                         <Label for="name">Name</Label>
                         <Input
@@ -62,17 +72,11 @@ async handleSubmit(e) {
                         <Label for="exampleText">Message</Label>
                         <Input
                             type="textarea"
-                            name="text"
+                            name="message"
                             id="message"
                             onChange={this.handleChange} />
                     </FormGroup>
-                    <FormGroup>
-                        <Label for="exampleFile">File</Label>
-                        <Input
-                            type="file"
-                            name="file"
-                            id="file" />
-                    </FormGroup>
+
                     <Button>Submit</Button>
                 </Form>
                 <Footer />
