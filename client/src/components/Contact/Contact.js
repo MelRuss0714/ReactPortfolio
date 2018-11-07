@@ -16,20 +16,15 @@ export default class Contact extends React.Component {
         }
         this.handleChange = this.handleChange.bind(this)
         this.handleSubmit = this.handleSubmit.bind(this)
-        this.clearFields = this.clearFields.bind(this)
+        this.handleValidSubmission = this.handleValidSubmission.bind(this)
 
     }
     handleChange = e => {
         this.setState({ [e.target.name]: e.target.value })
     }
-    clearFields = () => {
-        document.getElementById("emailForm").reset();
-        this.setState({
-            name: '',
-            email: '',
-            message: ''
-        });
-    }
+    handleValidSubmission (e, fields) {
+        this.form && this.form.reset();
+      }
     
     async handleSubmit(e) {
         e.preventDefault()
@@ -48,7 +43,7 @@ export default class Contact extends React.Component {
         return (
             <div className='Contact'>
                 <Navbar />
-                <Form id='emailForm' onSubmit={this.handleSubmit}>
+                <Form id='emailForm' onSubmit={this.handleSubmit && this.handleValidSubmission} ref={c => (this.form = c)}>
                     <FormGroup>
                         <Label for="name">Name</Label>
                         <Input

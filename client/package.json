@@ -2,7 +2,7 @@
   "name": "reactportfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/MelRuss0714/ReactPortfolio.git",
+  "homepage": "https://MelRuss0714.github.io/ReactPortfolio",
   "dependencies": {
     "axios": "^0.18.0",
     "npm": "^6.4.1",
