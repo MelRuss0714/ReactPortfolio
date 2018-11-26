@@ -1,23 +1,26 @@
 .page-footer{
     background-color: #aaaaaa;
     font-size:16pt;
-    text-align: center;
     position: fixed;
     bottom: 0;
     right: 0;
     width: 100%;
+    padding-top: 20px;
+
 
 }
-.links{
-    text-align: right;
+
+p{
+    text-align: left;
 
 }
-#firstIcon {
-margin-left: 800px;
-}
+
 i {
     font-size:18pt;
     padding: 10px;
+}
+.icons{
+    text-align: right;
 }
 
 @media screen and (max-width: 510px){
@@ -29,7 +32,8 @@ i {
         bottom: 0;
         right: 0;
         width: 100%;
-    
+        padding-top: 0px;
+
     }
     .links{
         text-align: center;
@@ -39,8 +43,15 @@ i {
         font-size:12pt;
         padding: 10px;
     }
+    .icons{
+        text-align: center;
+    }
     .nameContainer{
         text-align: center;
+        
+    }
+    p{
+        padding-top: 20px;
     }
     #firstIcon {
         margin-left: 0px;

@@ -13,22 +13,22 @@ const NavBar = (props) =>
   <Navbar className="Navbar" inverse collapseOnSelect>
     <Navbar.Header>
       <Navbar.Brand>
-        <a className='brand' href="/ReactPortfolio/#/">Melinda Russell</a>
+        <a className='brand' href="/#/">Melinda Russell</a>
       </Navbar.Brand>
       <Navbar.Toggle />
     </Navbar.Header>
     <Navbar.Collapse>
       <Nav>
-        <NavItem eventKey={1} className='link' href="/ReactPortfolio/#/portfolio">
+        <NavItem eventKey={1} className='link' href="/#/portfolio">
           Portfolio
       </NavItem>
-        <NavItem eventKey={2} className='link' href="/ReactPortfolio/#/resume">
+        <NavItem eventKey={2} className='link' href="/#/resume">
           Resume
       </NavItem>
-        <NavItem eventKey={3} className='link' href="/ReactPortfolio/#/about">
+        <NavItem eventKey={3} className='link' href="/#/about">
           About
       </NavItem>
-        <NavItem eventKey={4} className='link' href="/ReactPortfolio/#/contact">
+        <NavItem eventKey={4} className='link' href="/#/contact">
           Contact
       </NavItem>
 

@@ -4,12 +4,12 @@ self.__precacheManifest = [
     "url": "/ReactPortfolio/static/media/ProPicture.e2b222d9.jpg"
   },
   {
-    "revision": "41d3cbc2b00057d9463a",
-    "url": "/ReactPortfolio/static/css/main.069a0c47.chunk.css"
+    "revision": "26afe36958dc2942ca8b",
+    "url": "/ReactPortfolio/static/css/main.807325fb.chunk.css"
   },
   {
-    "revision": "b2394078c14213bf34f9",
-    "url": "/ReactPortfolio/static/js/1.b2394078.chunk.js"
+    "revision": "3fbed6bb3160ffd7e72c",
+    "url": "/ReactPortfolio/static/js/1.3fbed6bb.chunk.js"
   },
   {
     "revision": "aa22ff2d541828390b91",
@@ -32,8 +32,8 @@ self.__precacheManifest = [
     "url": "/ReactPortfolio/static/media/MelindaRussellResume.05b3be35.docx"
   },
   {
-    "revision": "41d3cbc2b00057d9463a",
-    "url": "/ReactPortfolio/static/js/main.41d3cbc2.chunk.js"
+    "revision": "26afe36958dc2942ca8b",
+    "url": "/ReactPortfolio/static/js/main.26afe369.chunk.js"
   },
   {
     "revision": "9265a0c32d882930861daac1dc20f39b",
@@ -60,7 +60,7 @@ self.__precacheManifest = [
     "url": "/ReactPortfolio/static/media/MelindaRussellResume.70972f59.pdf"
   },
   {
-    "revision": "8692c506c80d7555dd37efb4c370dee8",
+    "revision": "90c0e8d61719174f2a3c039cf98db9ed",
     "url": "/ReactPortfolio/index.html"
   }
 ];
